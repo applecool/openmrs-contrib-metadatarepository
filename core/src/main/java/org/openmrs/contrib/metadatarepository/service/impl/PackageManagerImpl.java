@@ -219,4 +219,12 @@ public class PackageManagerImpl extends
 		return deserializedPackage;
 	}
 
+	public List<MetadataPackage> getAllPackageVersions(
+			MetadataPackage metadataPackage) {
+
+		List<MetadataPackage> sortedPackageList = null; //need to write functionality
+
+		return sortedPackageList;
+	}
+
 }
